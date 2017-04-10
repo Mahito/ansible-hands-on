@@ -1,0 +1,10 @@
+- name: create instance
+  os_server:
+    state: present
+    name: "{{ os_name }}"
+    image: "{{ os_image }}"
+    flavor: "{{ os_flavor }}"
+    key_name: "{{ os_key_name }}"
+    security_groups: "{{ os_security_groups }}"
+    network: "{{ os_network }}"
+    auto_ip: no

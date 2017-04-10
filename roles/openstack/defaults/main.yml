@@ -1,0 +1,6 @@
+os_name: test
+os_image: "CentOS6"
+os_flavor: 1
+os_key_name: test
+os_security_groups: test
+os_network: test

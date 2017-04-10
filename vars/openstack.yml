@@ -1,0 +1,6 @@
+os_name: wordpress
+os_image: "CentOS6"
+os_flavor: 11
+os_key_name: your_key_name
+os_security_groups: bootcamp
+os_network: bootcapm
